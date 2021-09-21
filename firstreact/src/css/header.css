@@ -1,0 +1,11 @@
+.header {
+    position: relative;
+}
+
+.header-content {
+    background-color: rgb(156, 140, 140);
+    display: flex;
+    border: solid 2px rgb(128, 223, 156);
+    border-radius: 3px;
+    min-height: 30px;
+}
