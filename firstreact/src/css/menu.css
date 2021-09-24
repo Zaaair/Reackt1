@@ -1,0 +1,16 @@
+.menu-box {
+    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+
+}
+.menu-img {
+    transition: .8s ease-in-out;
+}
+
+.menu-img:hover {
+    transform: rotate(360deg);
+
+}

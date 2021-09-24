@@ -1,4 +1,5 @@
-import '../css/'
+import '../css/menu.css';
+import menu from '../svg/menu.svg'
 
 
 
@@ -6,7 +7,7 @@ import '../css/'
 function Menu() {
     return (
         <div className="menu-box">
-            
+            <img className="menu-img" src={menu}></img>
         </div>
 
     )

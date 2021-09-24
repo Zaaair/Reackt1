@@ -1,4 +1,5 @@
 import '../css/header.css';
+import Menu from '../elements/menu.js'
 
 
 
@@ -8,7 +9,7 @@ function Header() {
         <header className="header">
             <div className="container">
                 <div className="header-content">
-                    
+                <Menu />
 
                 </div>
             </div>
