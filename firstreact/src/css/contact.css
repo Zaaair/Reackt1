@@ -1,0 +1,21 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px;
+}
+.contact-items-number {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contact-items-number-phone {
+    margin: 10px;
+}
+
+@media screen and ( max-width : 460px) {
+    .contact-item {
+        display: none;
+    }
+}

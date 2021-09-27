@@ -1,5 +1,6 @@
 import '../css/header.css';
-import Menu from '../elements/menu.js'
+import Menu from '../elements/menu.js';
+import Contact from '../elements/contact.js';
 
 
 
@@ -10,6 +11,7 @@ function Header() {
             <div className="container">
                 <div className="header-content">
                 <Menu />
+                <Contact />
 
                 </div>
             </div>
